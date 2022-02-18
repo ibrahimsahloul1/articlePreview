@@ -1,8 +1,8 @@
 let share = document.getElementById('shareBtn')
 let sharePc = document.querySelector('.share-action')
-let shareMob = document.getElementById('share-mob')
+let shareMob = document.getElementById('shareMob')
 let infoBox = document.querySelector('.box-container')
-let closeShareMob = document.querySelector('#share-mob')
+let closeShareMob = document.querySelector('#share_mob_exit')
 
 share.onclick = function(){
     if(sharePc.style.display ==='flex' && window.screen.width>850){
